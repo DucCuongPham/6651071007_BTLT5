@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #e4f7d4;
+    border: 3px solid #b8e69e;
+}
+
+th {
+    background-color: #d7f5c2;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 16px;
+    border: 2px solid #b8e69e;
+    text-align: center;
+}
+
+td {
+    padding: 4px 6px;
+    border: 2px solid #b8e69e;
+    text-align: center;
+}
+
+td input[type="text"] {
+    width: 150px;
+    padding: 3px 5px;
+    font-size: 15px;
+    border: 1px solid #7f9db9;
+    box-sizing: border-box;
+}
+
+.btn-delete {
+    padding: 2px 14px;
+    font-size: 14px;
+    font-family: inherit;
+    background: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 100%);
+    border: 1px solid #707070;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-delete:hover {
+    background: linear-gradient(to bottom, #f2f2f2 0%, #d4d4d4 100%);
+}
+
+.btn-delete:active {
+    background: #ccc;
+}
