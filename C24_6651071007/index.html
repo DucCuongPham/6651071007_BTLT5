@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Form ngày tháng năm</title>
+</head>
+<body>
+    <h1>Câu 24: Form ngày tháng năm</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Ngày</td>
+                <td>
+                    <input type="text" id="ngay" value="29">
+                </td>
+                <td>Tháng</td>
+                <td>
+                    <select id="thang">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </td>
+                <td>Năm</td>
+                <td>
+                    <input type="text" id="nam" value="2026">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" align="center">
+                    <input type="button" value="Xuất thứ" onclick="xuatThu()">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" align="center">
+                    <input type="text" id="ketqua" size="50">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="Scripts/cau24.js"></script>
+</body>
+</html>
