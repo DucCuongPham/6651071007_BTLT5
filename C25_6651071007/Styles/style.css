@@ -1,0 +1,46 @@
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    h2 {
+        background-color: #ccff00;
+        padding: 15px;
+        color: black;
+    }
+
+    table {
+        border-collapse: collapse;
+        background-color: #ccff00;
+    }
+
+    th {
+        background-color: #ccff00;
+        color: blue;
+        padding: 5px;
+    }
+
+    td {
+        padding: 5px;
+    }
+
+    #ketqua {
+        background-color: #b9f3f3;
+    }
+
+    #ketqua th {
+        background-color: #b9f3f3;
+    }
+
+    #ketqua td {
+        border: 2px solid red;
+    }
+
+    #ketqua tr:last-child {
+        font-weight: bold;
+    }
+
+    input[type="button"] {
+        padding: 5px 15px;
+        cursor: pointer;
+    }
